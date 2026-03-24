@@ -18,7 +18,8 @@ public class Iterator1 {
 	  Iterator m1 = li.iterator(); 
 		while (m1.hasNext())        // will check if the value is present or not, if yes
 		  {
-		   System.out.println("Iterator: -> " + m1.next()); //then it will print the value
+		    
+		     System.out.println("Iterator: -> " + m1.next()); //then it will print the value
 		  }
 		
 		

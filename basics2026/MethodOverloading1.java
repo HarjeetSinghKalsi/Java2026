@@ -1,12 +1,13 @@
 package basics2026;
 
-//Compile Polymorphism
+//Compile time Polymorphism
+
 public class MethodOverloading1 
 {
-	void add() //non para
+	void add()            //non para
 	{
-		int a =3; // local variable
-		int b=4;
+		int a =3;         // local variable
+		int b =4;
 		int sum= (a+b);
 		System.out.println(sum);
 	}
@@ -20,8 +21,9 @@ public class MethodOverloading1
    {
 	
 	   MethodOverloading1 m1 = new MethodOverloading1 ();
-	   m1.add();
-	   add(5,4);
+	   add(5,4);  // static
+	   m1.add();  // non static
+	   
 	   
 }
 }

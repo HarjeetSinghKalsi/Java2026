@@ -1,6 +1,7 @@
 package basics2026;
 
 //Runtime Polymorphism
+
 class Amazon
 {
    void login()
@@ -18,6 +19,7 @@ public class MethodOverriding extends Amazon
 	
 	public static void main(String[] args)
 	{
+	    
 		MethodOverriding m1 = new MethodOverriding();
 		m1.login();
 		

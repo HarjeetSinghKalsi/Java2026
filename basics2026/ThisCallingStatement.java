@@ -5,19 +5,19 @@ public class ThisCallingStatement
 	
 	ThisCallingStatement(int age)
 	{
-	  System.out.println("1 :" + 25);	 
+	  System.out.println("age is :" + 25);	 
 	}
 	
 	ThisCallingStatement(String name)
 	{
-		this(100);  //this calling statement
-		System.out.println("2 :"  + "Harjeet");
+		this(100);          //this calling statement
+		System.out.println("name is :"  + "Harjeet");
 	}
 	
 	ThisCallingStatement()
 	{
-		this("abc"); //this calling statement
-		System.out.println("3");
+		this("abc");         //this calling statement
+		System.out.println("number is :" + "3");
 	}
 	
 	public static void main(String[] args) 

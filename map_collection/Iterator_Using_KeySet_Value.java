@@ -14,7 +14,7 @@ public class Iterator_Using_KeySet_Value {
 		m1.put("test3", 35);
 		m1.put("test4", 02);
 		
-	   for (String s1 : m1.keySet())  //used to fetch the keys using iterator
+	   for (String s1 : m1.keySet())  //used to fetch the keys using iterator and for each loop
 	     {
 		    System.out.println(s1); 
 	     }
