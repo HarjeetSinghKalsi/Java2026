@@ -4,7 +4,8 @@ import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Set_Sorting {
+public class Set_TreeSet  //Default sorted manure
+{
 
 	public static void main(String[] args)
 	{

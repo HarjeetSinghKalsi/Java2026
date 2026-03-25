@@ -6,7 +6,7 @@ public class String_Functions4 {
 	{
 	  //matches-> check if given String ends with l
 		 String s1 = "school";
-		 boolean b1 = s1.matches("(.*)l"); //(.*) is used to search letters
+		 boolean b1 = s1.matches("(.*)l"); //(.*) is used to search letters 
 		 System.out.println(b1);
 		
 	  //matches-> check if given String starts with H

@@ -20,9 +20,9 @@ public class MethodOverloading1
    public static void main(String[] args) 
    {
 	
-	   MethodOverloading1 m1 = new MethodOverloading1 ();
-	   add(5,4);  // static
+	   MethodOverloading1 m1 = new MethodOverloading1 (); 
 	   m1.add();  // non static
+	   add(5,4);  // static0.
 	   
 	   
 }

@@ -3,7 +3,7 @@ package basics2026;
 public class NonStaticMethod 
 {
 	
-	void add()
+	void add()       //non para
 	{
 		int a =10;
 		int b = 20;

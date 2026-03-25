@@ -8,7 +8,7 @@ public class Iterator1 {
 
 	public static void main(String[] args) 
 	{
-		List li 	 =new ArrayList();
+		List li = new ArrayList();
 		 li.add(96);
 		 li.add(785);
 		 li.add("harjeet");

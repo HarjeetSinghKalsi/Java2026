@@ -21,7 +21,7 @@ public class List_Methods1 {
 		l2.addAll(li);               //addAll method, it will add both the collection 1 and 2
 		System.out.println(l2);
 		
-		System.out.println(l2.get(2)); //get the 2nd index
+		System.out.println(l2.get(2)); //get the 2nd index value
 		
 		boolean b1 =li.equals(l2); //equals method
 		System.out.println(b1);

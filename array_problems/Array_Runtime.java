@@ -11,9 +11,9 @@ public class Array_Runtime {
 		int rollno[] = new int [4]; 
 		for (int i=0; i<4; i++)
 		{
-		rollno[i]= s1.nextInt();
+	    	rollno[i]= s1.nextInt();
 		}
-		System.out.println(Arrays.toString(rollno));	
+	    	System.out.println(Arrays.toString(rollno));	
 	}
 
 }

@@ -4,8 +4,8 @@ public class StaticMethod
 {
 	public static void add()
 	{
-		int a = 45;
-		int b= 56;
+		int a = 40;
+		int b= 50;
 		int sum = a+b;
 		System.out.println(sum);
 	}

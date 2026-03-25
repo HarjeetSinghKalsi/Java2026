@@ -6,13 +6,11 @@ public class Array_ForEachLoop {
 	{
 		String [] name = {"java", "python", "javascript", "c++"}; //1st way to declare an array
 		
-		for (String s1 : name)
+		for (String s1 : name)  //for each loop
 		  {
 			System.out.println(s1);
 		  }
-		
-		
-		
+			
 	/*	String names [] = new String [4]; //2nd way to declare an array
 		names[0] = "raj";
 		names[1]= "harj";

@@ -1,6 +1,7 @@
 package basics2026;
 
 //using with inheritence + constructor
+//ex multi level
 
 class Grand_Parent
 {
@@ -11,17 +12,17 @@ class Grand_Parent
 }
 class Parent_Class extends Grand_Parent
 {
-	Parent_Class() //non para constructor
+	Parent_Class(int a) //non para constructor
 	{
 		super("java"); //super calling statement
-		System.out.println("2");
+		System.out.println(500);
 	}
 }
 public class SuperCallingStatement extends Parent_Class
 {
 	SuperCallingStatement(String name) //para cons
 	{
-		super(); //super calling statement
+		super(1); //super calling statement
 		System.out.println("sub:" + "selenium" );
 	}
 	

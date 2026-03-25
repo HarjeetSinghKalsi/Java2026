@@ -9,7 +9,7 @@ abstract class fb_Auth
 
 abstract class Google_Auth extends fb_Auth
 {
-	abstract void google_login();
+	abstract void google_login();   //abstract method
 }
 
 abstract class Razor_Pay extends Google_Auth

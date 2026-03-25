@@ -12,6 +12,8 @@ public class Current_Time {
 		Date d2 = new Date(d1.getTime());
 		System.out.println(d2);
 		
+//*****************************************************************************		
+		
 		String currentTime =  d2.toString();
 		String year =       currentTime.substring(currentTime.length()-4);
 		System.out.println(year);

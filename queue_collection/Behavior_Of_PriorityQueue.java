@@ -1,12 +1,11 @@
 package queue_collection;
 
-import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class Iterator1 {
+public class Behavior_Of_PriorityQueue {
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		Queue<String> li = new PriorityQueue<String>();
 		  li.add("harjeet");
@@ -14,13 +13,7 @@ public class Iterator1 {
 		  li.add("kalsi");
 		  li.add("QA");
 		  li.add("Engineer");
-		  
-		  Iterator<String> i2 = li.iterator();
-		   while(i2.hasNext())
-		    {
-			  System.out.println(i2.next());
-		    }
-		  
+		 System.out.println(li);
 	}
 
 }

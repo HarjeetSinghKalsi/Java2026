@@ -1,26 +1,21 @@
 package queue_collection;
 
-import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class Iterator1 {
+public class Behaviour_Of_LinkedList {
 
 	public static void main(String[] args) 
 	{
-		Queue<String> li = new PriorityQueue<String>();
+		Queue<String> li = new LinkedList<String>();
 		  li.add("harjeet");
 		  li.add("singh");
 		  li.add("kalsi");
 		  li.add("QA");
 		  li.add("Engineer");
-		  
-		  Iterator<String> i2 = li.iterator();
-		   while(i2.hasNext())
-		    {
-			  System.out.println(i2.next());
-		    }
-		  
+		 System.out.println(li);
+
 	}
 
 }
