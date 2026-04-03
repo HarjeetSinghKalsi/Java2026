@@ -15,7 +15,7 @@ public class Pallindrome {
 		}
 		System.out.println(output);
 		
-		if (input.equals(output)==true)
+		if (input.equals(output))
 		{
 			System.out.println("it is pallindrome");
 		}
