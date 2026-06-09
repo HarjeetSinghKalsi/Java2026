@@ -22,7 +22,7 @@ public class Third_Largest_Number_UsingArray {
 			
 			else if (number[i] > secondlargest && number[i]!=largest)
 			{
-				thirdlargest = secondlargest;
+			//	thirdlargest = secondlargest;
 				secondlargest = number[i];
 			}
 			
@@ -31,7 +31,7 @@ public class Third_Largest_Number_UsingArray {
 				thirdlargest=number[i];
 			}
 		}
-		System.out.println(Arrays.toString(number));
+		 System.out.println(Arrays.toString(number));
 		 System.out.println("largest is " + largest);
 		 System.out.println("second largest is " + secondlargest);
 		 System.out.println("third largest is " + thirdlargest);

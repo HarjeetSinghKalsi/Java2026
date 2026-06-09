@@ -18,7 +18,7 @@ public class Largest_Smallest_Number_usingArray {
 			}
 			else if (number[i]< smallest) //40<10
 			{
-				smallest = number [i];  //5 it will repeat the loop till the smallest value i.e. 5 gets
+				smallest = number[i];  //5 it will repeat the loop till the smallest value i.e. 5 gets
 			}
 		}
 		System.out.println(Arrays.toString(number));

@@ -9,7 +9,7 @@ public class Array_34_IsPresent {
 		
 		for (int i =0; i<4; i++)
 		{
-		  if (num[i] == numpresent)
+		  if(num[i] == numpresent)
 		   {
 			System.out.println("Number -> " + numpresent + " is present in Array");
 			System.out.println("Index of -> " + numpresent + " is -> " + i);

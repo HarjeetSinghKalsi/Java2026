@@ -17,13 +17,9 @@ public class Delete_Nth_Character {
 			if ((i+1)%n !=0)      //Condition to skip nth character
 			{
 				s2.append(s1.charAt(i));
-			}
-			
+			}		
 		}
-		   return s2.toString();
-	}
-		
-
-	
+		     return s2.toString();
+	}	
 }
 

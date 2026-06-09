@@ -6,11 +6,11 @@ public class Second_Largest_Number_UsingArray {
 
 	public static void main(String[] args)
 	{
-		int number[] = {56,889,889,66,63};
-		int largest = number[0]; //56
-		int secondlargest = number[0];  //56
+		int number[] = {56,889,889,66,63,500};
+		int largest = Integer.MIN_VALUE; //56
+		int secondlargest = Integer.MIN_VALUE;  //56
 		
-		for (int i=1; i<number.length; i++)
+		for (int i=0; i<number.length; i++)
 		{
 			if (number[i]>largest)
 			{

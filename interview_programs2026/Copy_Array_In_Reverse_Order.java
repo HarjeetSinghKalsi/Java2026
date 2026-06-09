@@ -11,7 +11,7 @@ public class Copy_Array_In_Reverse_Order {
 		   
 		   for (int i=0,k=4;  i<num.length;i++, k--)
 		   {
-			     num1[k] =   num[i];
+			     num1[k] = num[i];
 		
 	       }
 		   System.out.println(Arrays.toString(num));

@@ -7,13 +7,13 @@ public class Swap_Numbers {
 	{
 		int a =10;
 		int b =20;
-		System.out.println("Before swap a= " + a + " b= " + b);
+		System.out.println("Before swap a= " + a + ", b= " + b);
 		
 		
-		a= a+b;
-		b= a-b;
-		a= a-b;
-		System.out.println("after swap a= " + a + " b= " + b);
+		a= a+b; //30
+		b= a-b; //10
+		a= a-b; //20
+		System.out.println("after swap a= " + a + ", b= " + b);
 	
 	}
 

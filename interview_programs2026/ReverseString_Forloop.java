@@ -7,6 +7,7 @@ public class ReverseString_Forloop
 		String input ="Harjeet";
 		System.out.println(input);
 		String output ="";
+		
 		for (int i=input.length()-1; i>=0; i--)
 		{
 			char c1 = input.charAt(i);

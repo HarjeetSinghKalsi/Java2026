@@ -9,7 +9,7 @@ public class Count_Duplicate_Elements_Using_HashMap {
 	
 	public static void main(String[] args) 
 	{
-		String [] names = {"c++", "c++","java", "python", "selenium", "selenium"};
+		String [] names = {"c++", "c++","c++","java", "python", "selenium", "selenium"};
 		
 		Map <String, Integer> m1 = new HashMap<String, Integer>();
 		for (String m2 : names)
@@ -18,11 +18,11 @@ public class Count_Duplicate_Elements_Using_HashMap {
 			                                     // when the key is not present, which helps in -
 		}	                                     //counting occurrences without null checks	
 		
-		for(Map.Entry<String, Integer> m2:          m1.entrySet())
+		for(Map.Entry<String, Integer> m2: m1.entrySet())
 		{
 			if(m2.getValue()>1)
 			{
-			System.out.println(m2.getKey()+ "-> " + m2.getValue());
+			  System.out.println(m2.getKey()+ "-> " + m2.getValue());
 			}
 		}
 
